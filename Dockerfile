@@ -5,7 +5,7 @@ FROM maven:3-openjdk-17-slim
 WORKDIR /app
 
 # Copy the rest of the project files
-COPY . /app
+COPY . .
 
 # Run the Maven build command to compile the code
 RUN mvn clean package
