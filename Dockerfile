@@ -1,5 +1,5 @@
 # Use openjdk 17 as the base image
-FROM openjdk:17-jdk-slim
+FROM maven:3-openjdk-17-slim
 
 # Set the environment variable for Maven
 ENV MAVEN_VERSION 3.7.0
