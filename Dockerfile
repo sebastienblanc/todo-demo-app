@@ -16,9 +16,6 @@ ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 # Set the working directory to /app
 WORKDIR /app
 
-# Copy the pom.xml file to the Docker image
-COPY pom.xml .
-
 # Copy the rest of the project files
 COPY . .
 
